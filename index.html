@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Notes Collection</title>
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family:Arial, Helvetica, sans-serif;
+        }
+
+        body{
+            background:#0f172a;
+            color:white;
+            padding:40px;
+        }
+
+        h1{
+            text-align:center;
+            margin-bottom:30px;
+            font-size:42px;
+        }
+
+        .container{
+            max-width:900px;
+            margin:auto;
+            display:grid;
+            gap:18px;
+        }
+
+        .card{
+            background:#1e293b;
+            padding:20px;
+            border-radius:14px;
+            display:flex;
+            justify-content:space-between;
+            align-items:center;
+            transition:0.2s;
+        }
+
+        .card:hover{
+            transform:translateY(-3px);
+            background:#334155;
+        }
+
+        .file-name{
+            font-size:18px;
+            word-break:break-word;
+        }
+
+        .download-btn{
+            text-decoration:none;
+            background:#3b82f6;
+            color:white;
+            padding:10px 18px;
+            border-radius:10px;
+            font-weight:bold;
+            transition:0.2s;
+        }
+
+        .download-btn:hover{
+            background:#2563eb;
+        }
+
+        @media(max-width:700px){
+            .card{
+                flex-direction:column;
+                gap:15px;
+                text-align:center;
+            }
+
+            .download-btn{
+                width:100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <h1>📚 Notes Collection</h1>
+
+    <div class="container">
+
+        <div class="card">
+            <div class="file-name">Bootstrap_Notes.docx</div>
+            <a class="download-btn" href="Bootstrap_Notes.docx" download>
+                Download
+            </a>
+        </div>
+
+        <div class="card">
+            <div class="file-name">oops java unit 1 (1).docx</div>
+            <a class="download-btn" href="oops java unit 1 (1).docx" download>
+                Download
+            </a>
+        </div>
+
+        <div class="card">
+            <div class="file-name">OOPS USING JAVA UNIT-II (06-03-2026).pdf</div>
+            <a class="download-btn" href="OOPS USING JAVA UNIT-II (06-03-2026).pdf" download>
+                Download
+            </a>
+        </div>
+
+        <div class="card">
+            <div class="file-name">OS unit 2.docx</div>
+            <a class="download-btn" href="OS unit 2.docx" download>
+                Download
+            </a>
+        </div>
+
+        <div class="card">
+            <div class="file-name">OS unit 3and4.docx</div>
+            <a class="download-btn" href="OS unit 3and4.docx" download>
+                Download
+            </a>
+        </div>
+
+        <div class="card">
+            <div class="file-name">OS_unit-1bca (1).docx</div>
+            <a class="download-btn" href="OS_unit-1bca (1).docx" download>
+                Download
+            </a>
+        </div>
+
+        <div class="card">
+            <div class="file-name">UNIT-3_OOPS_USING_JAVA (1).pdf</div>
+            <a class="download-btn" href="UNIT-3_OOPS_USING_JAVA (1).pdf" download>
+                Download
+            </a>
+        </div>
+
+        <div class="card">
+            <div class="file-name">UNIT-4_OOPS_USING_JAVA.pdf</div>
+            <a class="download-btn" href="UNIT-4_OOPS_USING_JAVA.pdf" download>
+                Download
+            </a>
+        </div>
+
+        <div class="card">
+            <div class="file-name">web tech unit2.pdf</div>
+            <a class="download-btn" href="web tech unit2.pdf" download>
+                Download
+            </a>
+        </div>
+
+        <div class="card">
+            <div class="file-name">webtech unit1.docx</div>
+            <a class="download-btn" href="webtech unit1.docx" download>
+                Download
+            </a>
+        </div>
+
+    </div>
+
+</body>
+</html>
