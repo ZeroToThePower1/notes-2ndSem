@@ -166,7 +166,8 @@ export default function Home() {
   };
 
   const handleDelete = async (noteId, publicId, resourceType = 'auto') => {
-    if (!confirm('Are you sure you want to delete this note?')) {
+    let inp = input("enter password: ")
+    if (!inp === "delete1234")) {
       return;
     }
 
